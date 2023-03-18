@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 > React + TS + Eslint + Stylelint + Prettier + lint-staged + Husky 项目模板，项目用了 vite 快速创建，换做其他脚手架也可。
 
 ## 安装 eslint
@@ -432,4 +434,8 @@ module.exports = {
 
 然后执行这条命令`yarn prepare`，husky 执行初始化，可以发现我们的项目目录多了`.husky`文件夹，代表初始化成功。
 
-接着我们执行`npx husky add .husky/pre-commit "npm run lint-staged"`，大功告成。之后我们 git 提交前会执行`npm run lint-staged`命令，即检查 git 缓存区的代码问题，若存在问题，`lint-staged`会终止并报错，git 提交自然不会成功。
+# 接着我们执行`npx husky add .husky/pre-commit "npm run lint-staged"`，大功告成。之后我们 git 提交前会执行`npm run lint-staged`命令，即检查 git 缓存区的代码问题，若存在问题，`lint-staged`会终止并报错，git 提交自然不会成功。
+
+# -react-ts-eslint-stylelint-prettier-husky-lint-staged
+
+> > > > > > > 38f09f7322bd257b933e3f569f3aed296e32d7a6
